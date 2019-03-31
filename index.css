@@ -30,6 +30,10 @@ a {
   color: #fff;
 }
 
+.navigation a:hover {
+  text-decoration: underline;
+}
+
 .navigation .contact-login {
   position: absolute;
   right: 220px;
