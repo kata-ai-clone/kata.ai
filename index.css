@@ -250,4 +250,37 @@ main h2 {
   text-decoration: underline;
 }
 
+.section-four {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 75px 150px;
+}
+
+.section-four p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.client-one,
+.client-two {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.client-one div,
+.client-two div {
+  width: 260px;
+  height: 120px;
+  margin: 30px 20px;
+}
+
+.client-one div img,
+.client-two div img {
+  width: 100%;
+}
+
+
+
 /* CLOSE MAIN */
