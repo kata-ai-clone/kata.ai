@@ -26,7 +26,7 @@ p {
   font-weight: 300;
   color: #333333;
   display: block;
-  padding: 10px;
+  padding: 15px;
 }
 
 a {
@@ -177,22 +177,44 @@ main h2 {
 }
 
 
-/* OPEN SECTION ONE */
+/* OPEN MAIN */
 
-.section-one {
+.section-one,
+.section-two-top {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   padding: 75px 150px;
 }
 
-.section-one img {
+.section-two-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.section-one img,
+.section-two-top img,
+.section-two-bottom img {
   width: 120px;
 }
 
-.section-one div {
+.section-one div,
+.section-two-top div,
+.section-two-bottom div {
   text-align: center;
   width: 300px;
 }
 
-/* CLOSE SECTION ONE */
+.section-two-top .laptop h2,
+.section-two-top .gear h2,
+.section-two-bottom div h2 {
+  margin-bottom: 64px;
+}
+
+.section-two-bottom div {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* CLOSE MAIN */
