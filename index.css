@@ -6,7 +6,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   letter-spacing: 0.5px;
   color: #24282D;
 }
@@ -347,3 +349,69 @@ main h2 {
 }
 
 /* CLOSE MAIN */
+
+.footer {
+  padding: 80px 25px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer .container .menu {
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.5em;
+}
+
+.footer .container .menu h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.footer .container .menu div {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-top: 14px;
+}
+
+.footer .container .menu ul {
+  font-size: 16px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer .container .menu a {
+  color: #333333;
+
+}
+
+.footer .company {
+  line-height: 1.5em;
+  color: #666666;
+  font-size: 14px;
+}
+
+.footer .company-logo img {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.footer .company a {
+  color: #006EE5;
+}
+
+.footer .container .social {
+  margin-left: -10px;
+  margin-top: 20px;
+}
+
+.footer .social img {
+  width: 24px;
+}
