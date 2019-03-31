@@ -281,6 +281,38 @@ main h2 {
   width: 100%;
 }
 
+.section-five {
+  background-image: url(images/jpg/career.jpg);
+  background-repeat: no-repeat;
+  height: 720px;
+  text-align: center;
+  padding-top: 180px;
+}
+
+.section-five h1,
+.section-five p,
+.section-five a {
+  color: #fff
+}
+
+.section-five p {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.section-five-link {
+  margin: auto;
+  padding-top: 18px;
+  font-size: 24px;
+  background-color: #006EE5;
+  border-radius: 50px;
+  width: 400px;
+  height: 50px;
+}
+
+.section-five a:hover {
+  text-decoration: underline;
+}
 
 
 /* CLOSE MAIN */
