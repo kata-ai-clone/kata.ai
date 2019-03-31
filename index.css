@@ -1,23 +1,25 @@
 body {
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
+/* OPEN NAVIGATION */
+
 .navigation {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  position: fixed;
+  background-color: #006EE5;
+  z-index: 999;
   padding: 20px;
   width: 100%;
   height: 65px;
   color: #fff;
   font-weight: 300;
-  background-color: #006EE5;
-  position: fixed;
 }
 
 .navigation img {
@@ -60,3 +62,78 @@ a {
 .navigation .slide a {
   margin-left: 90px;
 }
+
+/* CLOSE NAVIGATION */
+
+/* OPEN HEADER */
+
+header {
+  background-color: #006EE5;
+  height: 1050px;
+  border-bottom-right-radius: 90%;
+}
+
+.header-content {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  color: #fff;
+}
+
+.header h1 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.header p {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.header .header-link {
+  padding-top: 10px;
+  position: absolute;
+  top: 410px;
+  left: 100px;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+.header .header-link a {
+  color: #24282D;
+  font-size: 30px;
+}
+
+.header .header-link a:hover {
+  text-decoration: underline;
+}
+
+.header .simpati {
+  position: absolute;
+  top: 80px;
+  right: 300px;
+}
+
+.header .alfa {
+  position: absolute;
+  top: 440px;
+  left: 475px;
+}
+
+.header .bri {
+  position: absolute;
+  top: 530px;
+  right: 300px;
+}
+
+.header .unilever {
+  position: absolute;
+  top: 170px;
+  right: 40px;
+}
+
+/* CLOSE HEADER */
