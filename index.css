@@ -183,7 +183,6 @@ main h2 {
 .section-two-top {
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
   padding: 75px 150px;
 }
 
@@ -215,6 +214,16 @@ main h2 {
 .section-two-bottom div {
   margin-right: 20px;
   margin-left: 20px;
+}
+
+.section-three {
+  display: flex;
+  justify-content: space-around;
+  padding: 75px 150px;
+}
+
+.section-three img {
+  width: 200px;
 }
 
 /* CLOSE MAIN */
