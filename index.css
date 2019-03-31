@@ -1,6 +1,32 @@
 body {
   margin: 0px;
-  font-family: Helvetica, sans-serif;
+  font-family: Arial Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.5px;
+  color: #24282D;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+p {
+  font-weight: 300;
+  color: #333333;
+  display: block;
+  padding: 10px;
 }
 
 a {
@@ -84,11 +110,13 @@ header {
   margin: 0px;
   font-weight: 400;
   font-size: 40px;
+  color: #fff;
 }
 
 .header p {
   font-size: 24px;
   font-weight: 200;
+  color: #fff;
 }
 
 .header .header-link {
@@ -137,3 +165,34 @@ header {
 }
 
 /* CLOSE HEADER */
+
+main h1 {
+  margin-top: 150px;
+  text-align: center;
+}
+
+main h2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+/* OPEN SECTION ONE */
+
+.section-one {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 75px 150px;
+}
+
+.section-one img {
+  width: 120px;
+}
+
+.section-one div {
+  text-align: center;
+  width: 300px;
+}
+
+/* CLOSE SECTION ONE */
