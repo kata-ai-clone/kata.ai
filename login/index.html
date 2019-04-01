@@ -33,30 +33,32 @@
     </section>
     <section class="right-section" id="right-section">
       <div class="login" id="login">
-        <div>
-          <a href="../index.html">
-            <img src="images/logo-platform.png" alt="" />
-          </a>
-        </div>
-        <div class="username" id="username">
-          <img src="images/man-user.png" alt="" />
-          <input type="text" name="username" placeholder="Username" value="" />
-        </div>
-        <div class="password" id="password">
-          <img src="images/locked.png" alt="" />
-          <input type="password" name="password" placeholder="Password" value="" />
-        </div>
-        <div class="check-forgot">
-          <div class="check">
-            <input type="checkbox" class="check-input" id="remember-me" />
-            <label class="check-label" for="remember-me">Remember me</label>
+        <form action="">
+          <div>
+            <a href="../index.html">
+              <img src="images/logo-platform.png" alt="" />
+            </a>
           </div>
-          <div class="forgot-password">
-            <a href="#">Forgot Password?</a>
+          <div class="username" id="username">
+            <img src="images/man-user.png" alt="" />
+            <input type="text" name="username" placeholder="Username" value="" required />
           </div>
-        </div>
-        <button>Login</button>
-        <p>Don't have an account? <a href="../sign-up/index.html">Sign up</a></p>
+          <div class="password" id="password">
+            <img src="images/locked.png" alt="" />
+            <input type="password" name="password" placeholder="Password" value="" required />
+          </div>
+          <div class="check-forgot">
+            <div class="check">
+              <input type="checkbox" class="check-input" id="remember-me" />
+              <label class="check-label" for="remember-me">Remember me</label>
+            </div>
+            <div class="forgot-password">
+              <a href="#">Forgot Password?</a>
+            </div>
+          </div>
+          <button type="submit">Login</button>
+          <p>Don't have an account? <a href="../sign-up/index.html">Sign up</a></p>
+        </form>
       </div>
     </section>
   </main>

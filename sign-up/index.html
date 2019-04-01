@@ -33,30 +33,33 @@
     </section>
     <section class="right-section" id="right-section">
       <div class="sign-up" id="sign-up">
-        <div>
-          <a href="../index.html">
-            <img src="../login/images/logo-platform.png" alt="" />
-          </a>
-        </div>
-        <div class="username" id="username">
-          <img src="../login/images/man-user.png" alt="" />
-          <input type="text" name="username" placeholder="Username" value="" />
-        </div>
-        <div class="email" id="email">
-          <img src="images/email.svg" alt="">
-          <input type="email" name="email" placeholder="Email" value="">
-        </div>
-        <div class="password" id="password">
-          <img src="../login/images/locked.png" alt="" />
-          <input type="password" name="password" placeholder="Password" value="" />
-        </div>
-        <div class="check">
-          <input type="checkbox" class="check-input" id="not-robot" />
-          <label class="check-label" for="not-robot">I'm not a robot</label>
-        </div>
-        <button>Sign Up</button>
-        <p>Already have an account? <a href="../login/index.html">Login</a></p>
+        <form action="">
+          <div>
+            <a href="../index.html">
+              <img src="../login/images/logo-platform.png" alt="" />
+            </a>
+          </div>
+          <div class="username" id="username">
+            <img src="../login/images/man-user.png" alt="" />
+            <input type="text" name="username" placeholder="Username" value="" required />
+          </div>
+          <div class="email" id="email">
+            <img src="images/email.svg" alt="">
+            <input type="email" name="email" placeholder="Email" value="" required>
+          </div>
+          <div class="password" id="password">
+            <img src="../login/images/locked.png" alt="" />
+            <input type="password" name="password" placeholder="Password" value="" required />
+          </div>
+          <div class="check">
+            <input type="checkbox" class="check-input" id="not-robot" />
+            <label class="check-label" for="not-robot">I'm not a robot</label>
+          </div>
+          <button type="submit">Sign Up</button>
+          <p>Already have an account? <a href="../login/index.html">Login</a></p>
+        </form>
       </div>
+
     </section>
   </main>
 </body>
