@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.left-section {
+  margin: 0px;
+  width: 45%;
+  min-height: 570px;
+  padding: 55px;
+  background-color: #006ce0;
+  text-align: center;
+  color: #fff;
+}
+
+.left-section div {
+  text-align: center;
+  padding: 20px;
+}
+
+.left-section p {
+  margin: 0px;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.left-section a {
+  text-decoration: none;
+  color: rgb(72, 76, 79);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.left-section a:hover {
+  color: #006ce0;
+}
+
+.left-section .link {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.left-section .link .tutorial,
+.left-section .link .docs {
+  width: 90px;
+  height: 10px;
+  margin: auto 10px;
+  padding-top: 10px;
+  border-radius: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.right-section .sign-up {
+  margin: auto;
+  background-color: #fff;
+  width: cover;
+  padding: 20px 50px;
+}
+
+.right-section .sign-up img {
+  max-height: 48px;
+  margin-bottom: 2em;
+}
+
+.right-section .username,
+.right-section .password,
+.right-section .email {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #dddddd;
+  border-radius: 30px;
+}
+
+.right-section .username input,
+.right-section .password input,
+.right-section .email input {
+  padding: 10px;
+}
+
+.right-section .email input {
+  margin-right: 9px;
+}
+
+.right-section .username img,
+.right-section .password img {
+  margin: 0px;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+.right-section .email img {
+  margin: 0px;
+  margin-right: 5px;
+}
+
+
+.right-section .sign-up a {
+  color: #006ce0;
+  text-decoration: none;
+}
+
+.right-section .sign-up a:hover {
+  text-decoration: underline;
+}
+
+.right-section .sign-up button {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: rgb(32, 83, 175);
+  color: #fff;
+  border-color: transparent;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.right-section .sign-up button:hover {
+  background-color: #006ce0;
+}
