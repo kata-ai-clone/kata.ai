@@ -36,7 +36,7 @@ a {
   text-decoration: none;
 }
 
-/* OPEN NAVIGATION */
+/* START NAVIGATION */
 
 .navigation {
   display: flex;
@@ -92,9 +92,9 @@ a {
   margin-left: 90px;
 }
 
-/* CLOSE NAVIGATION */
+/* END NAVIGATION */
 
-/* OPEN HEADER */
+/* START HEADER */
 
 header {
   background-color: #006EE5;
@@ -123,7 +123,7 @@ header {
 }
 
 .header .header-link {
-  padding-top: 10px;
+  padding-top: 15px;
   position: absolute;
   top: 430px;
   left: 100px;
@@ -349,7 +349,7 @@ main h2 {
   text-decoration: underline;
 }
 
-/* CLOSE MAIN */
+/* END MAIN */
 
 .footer {
   padding: 80px 25px;
