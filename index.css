@@ -285,6 +285,7 @@ main h2 {
 
 .section-five {
   background-image: url(images/jpg/career.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   height: 720px;
   text-align: center;
@@ -318,6 +319,7 @@ main h2 {
 
 .section-six {
   background-image: url(images/jpg/getstarted.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   height: 295px;
   text-align: center;
